@@ -1,0 +1,77 @@
+body{
+    padding:0px;
+    margin:0px auto;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.header{
+    position:relative;
+    top:0px;
+    padding:0px;
+    background-color: white;
+    height:70px;
+    z-index:2;
+    position:absolute;
+    margin:0px auto;
+    width:100%;
+    background-image: url("pattern.jpg");
+    background-size: cover;
+    display:block;
+}
+
+.main_logo{
+    float:left;
+    margin-left:70px;
+    background-image: url("Watch Owl!.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:70px;
+    width:70px;
+
+}
+.contents{
+    float:right;
+    margin-top:20px;
+}
+.contents a{
+    padding:22px 10px 22px 10px;
+    margin:20px 10px;
+    font-size:20px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color:black;
+    text-align:center;
+    background-color: white;
+    transition:0.1s ease-out;
+}
+.contents a:hover{
+    background-color: black;
+    color:white;
+    font-size:18px;
+    padding:10px 30px;
+    border:none;
+    border-radius:50px;
+}
+.head-wrapper{
+    margin-top:100px;
+    width:90%;
+    height:200px;
+    background-color: rgb(238, 58, 178);
+    z-index:2;
+    text-align:center;
+    margin:100px auto;
+    border:none;
+    border-radius:500px;
+    background-image: url("punch-pattern.jpg");
+    background-size: cover;
+    
+    
+}
+.punchline{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:50px;
+    display:flex;
+    justify-content:space-evenly;
+    padding:auto;
+    color:white;
+}
