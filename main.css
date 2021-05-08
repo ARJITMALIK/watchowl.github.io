@@ -76,9 +76,18 @@ body {
   border: none;
   border-top-right-radius: 150px;
   border-bottom-left-radius: 150px;
-  background-image: url("https://media.giphy.com/media/3o7TKUfKeHBXXxAZtS/giphy.gif");
-  background-size: cover;
+  background-image: url("punch-pattern.jpg");
   transition: all 0.4s ease-in-out;
+  animation: updown linear 10s infinite;
+}
+@keyframes updown
+{
+    from{
+        background-position:0% 100%;
+    }
+    to{
+        background-position: 0% -100%;
+    }
 }
 .head-wrapper:hover {
   border-bottom-left-radius: 0px;
